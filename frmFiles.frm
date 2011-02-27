@@ -62,6 +62,13 @@ frmMain.Visible = True
 
 End Sub
 
+Private Sub cmdEdit_Click()
+
+frmShaftpar.Visible = True
+frmFiles.Visible = False
+
+End Sub
+
 Private Sub cmdExit_Click()
 
 Unload Me
