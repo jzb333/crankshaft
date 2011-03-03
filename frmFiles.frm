@@ -9,6 +9,14 @@ Begin VB.Form frmFiles
    ScaleHeight     =   4590
    ScaleWidth      =   7875
    StartUpPosition =   3  '´°¿ÚÈ±Ê¡
+   Begin VB.TextBox Text1 
+      Height          =   735
+      Left            =   1560
+      TabIndex        =   5
+      Text            =   "Text1"
+      Top             =   480
+      Width           =   2415
+   End
    Begin VB.CommandButton cmdDelete 
       Caption         =   "É¾³ý"
       Height          =   400
